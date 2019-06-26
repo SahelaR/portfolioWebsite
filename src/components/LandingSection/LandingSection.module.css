@@ -1,6 +1,6 @@
 .mainCoverContainer {
     min-height: 100vh;
-     background-color: #331832;
+     background-color: var(--purple-color);
      display: flex;
      justify-content: space-around;
      align-items: center;
