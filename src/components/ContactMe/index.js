@@ -4,7 +4,7 @@ export default class ContactMe extends React.Component {
     render() {
         return (
             <div>
-                <Text>Contact</Text>
+                <p>Contact</p>
             </div>
         )
     }

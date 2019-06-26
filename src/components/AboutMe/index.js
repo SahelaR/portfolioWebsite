@@ -4,7 +4,7 @@ export default class AboutMe extends React.Component {
   render() {
     return (
       <div>
-        <Text>About</Text>
+        <p>About</p>
       </div>
     )
   }

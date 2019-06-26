@@ -4,7 +4,7 @@ export default class PortfolioSection extends React.Component {
     render() {
         return (
             <div>
-                <Text>Portfolio</Text>
+                <p>Portfolio</p>
             </div>
         )
     }
