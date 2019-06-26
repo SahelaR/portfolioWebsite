@@ -1,0 +1,8 @@
+.mainCoverContainer {
+    min-height: 100vh;
+     background-color: #331832;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
