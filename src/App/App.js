@@ -18,33 +18,37 @@ function App() {
         selector='.js-color-stop[data-background-color]'
         colorDataAttribute='data-background-color'
         initialRgb='#331832'
-      /> <LandingSection /> 
+      /> 
       
       <section
         data-background-color= '#331832'
         className='js-color-stop'
-      ><AboutMe /></section>
+      ><LandingSection /></section>
 
      <section
         data-background-color='#000000'
         className='js-color-stop'
-      ><TechnologySection /></section>
+      ><AboutMe /></section>
 
       <section
         data-background-color='#331832'
         className='js-color-stop'
-      ><PortfolioSection /> </section>
+      ><TechnologySection /> </section>
 
       <section
         data-background-color='#000000'
         className='js-color-stop'
-      ><BlogSection /></section>
+      ><PortfolioSection /></section>
 
       <section
         data-background-color='#331832'
         className='js-color-stop'
-      ><ContactMe /></section>
+      ><BlogSection /></section>
       
+      <section
+        data-background-color='#000000'
+        className='js-color-stop'
+      ><ContactMe /></section>
 </div>
   );
 }
