@@ -6,7 +6,7 @@ export default class PortfolioSection extends React.Component {
         return (
             <div>
                 <div className={CSS.mainCoverContainer}>
-
+                    <p>Portfolio</p>
                 </div>
             </div>
         )

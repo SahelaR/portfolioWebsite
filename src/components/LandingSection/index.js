@@ -7,7 +7,7 @@ export default class LandingSection extends React.Component {
         return (
             <div>
                 <div className={CSS.mainCoverContainer}>
-                   
+                    <p>Landing</p>
             </div>
             </div>
         )
