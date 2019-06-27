@@ -5,6 +5,7 @@ import AboutMe from "../components/AboutMe"
 import TechnologySection from "../components/TechnologySection"
 import PortfolioSection from "../components/PortfolioSection"
 import ContactMe from "../components/ContactMe"
+import BlogSection from "../components/BlogSection"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <AboutMe />
     <TechnologySection />
     <PortfolioSection />
+    <BlogSection />
     <ContactMe />
     </div>
   );
