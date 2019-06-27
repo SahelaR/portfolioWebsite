@@ -6,6 +6,7 @@ export default class AboutMe extends React.Component {
     return (
       <div>
         <div className={CSS.mainCoverContainer}>
+          <p>About</p>
           </div>
       </div>
     )

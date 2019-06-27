@@ -6,7 +6,7 @@ export default class TechnologySection extends React.Component {
         return (
             <div>
                 <div className={CSS.mainCoverContainer}>
-
+                    <p>Technology</p>
                 </div>
             </div>
         )

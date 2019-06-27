@@ -6,6 +6,7 @@ export default class ContactMe extends React.Component {
         return (
             <div>
                 <div className={CSS.mainCoverContainer}>
+                    <p>Contact</p>
 
                 </div>
             </div>
