@@ -13,7 +13,8 @@ export default class LandingSection extends React.Component {
                 <div className={CSS.mainCoverContainer} style={{
                     backgroundPosition: 'right',
                     backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat', zIndex: 1, backgroundImage: "url(" + Background + ")" }}>
+                    backgroundAttachment: 'fixed',
+                backgroundRepeat: 'no-repeat', zIndex: 1, backgroundImage: "url(" + Background + ")" }}>
                    <div className={CSS.header}>
                        <h1 >Hello, I'm Sahela Rani</h1>
                    </div>
