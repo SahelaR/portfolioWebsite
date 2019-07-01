@@ -1,12 +1,61 @@
 .mainCoverContainer {
     min-height: 100vh;
-     display: flex;
-     justify-content: space-around;
-     align-items: center; 
+    
+}
+
+h1 {
+     color: var(--white-color);
+     z-index: 1;
+     font-family: sans-serif;
+}
+@media screen and (min-width: 800px) {
+     h1 {
+          font-size: 12em;
+          margin-top: 250px
+     }
+}
+@media screen and (max-width: 800px) {
+     h1 {
+          font-size: 4em;
+          margin-top: 440px
+     }
+}
+
+.header {
+display: grid;
+
 }
 
 p {
      color: var(--white-color);
      z-index: 1;
+     font-family: sans-serif;
+     margin: 10px
 }
 
+@media screen and (min-width: 600px) {
+     p {
+          font-size: 40px;
+          margin-top: -600px
+     }
+}
+@media screen and (max-width: 600px) {
+     p {
+          font-size: 30px;
+          margin-top: -225px;
+     
+     }
+}
+
+@media screen and (max-width: 600px) {
+     .subtitle {
+    color: black;
+    margin-top: 170px;
+    text-align: right;
+    font-weight: bold;
+     
+     }
+}
+
+     
+   
