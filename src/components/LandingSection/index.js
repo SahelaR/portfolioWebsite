@@ -18,7 +18,7 @@ export default class LandingSection extends React.Component {
                    <div className={CSS.header}>
                         <p>front end developer.</p>
                        <h1 >Hello, I'm Sahela Rani</h1>
-                        <p>scroll down.</p>
+                        <p>have a scroll.</p>
             </div>
             </div>
             </div>
