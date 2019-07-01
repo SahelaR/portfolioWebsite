@@ -14,17 +14,13 @@ function App() {
   return (
 <div>
 
-      <ScrollingColorBackground
+<LandingSection />
+      {/* <ScrollingColorBackground
         selector='.js-color-stop[data-background-color]'
         colorDataAttribute='data-background-color'
         initialRgb='#331832'
       /> 
       
-      <section
-        data-background-color= '#331832'
-        className='js-color-stop'
-      ><LandingSection /></section>
-
      <section
         data-background-color='#000000'
         className='js-color-stop'
@@ -48,7 +44,7 @@ function App() {
       <section
         data-background-color='#000000'
         className='js-color-stop'
-      ><ContactMe /></section>
+      ><ContactMe /></section> */}
 </div>
   );
 }
