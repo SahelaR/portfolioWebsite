@@ -14,10 +14,13 @@ export default class LandingSection extends React.Component {
                     backgroundPosition: 'right',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat', zIndex: 1, backgroundImage: "url(" + Background + ")" }}>
-                   <div class={CSS.header}>
+                   <div className={CSS.header}>
                        <h1 >Hello, I'm Sahela Rani</h1>
                    </div>
-                
+                <div className={CSS.title}>
+                    <p>front end developer. </p>
+                    <p className={CSS.subtitle}>scroll down.</p>
+            </div>
             </div>
             </div>
         )
