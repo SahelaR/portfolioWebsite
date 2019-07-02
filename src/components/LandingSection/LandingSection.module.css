@@ -1,57 +1,63 @@
 .mainCoverContainer {
     min-height: 100vh;
-    
+}
+
+.header {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+text-align: left;
+
 }
 
 h1 {
      color: var(--white-color);
      z-index: 1;
      font-family: sans-serif;
+     margin: 0;
+    
 }
 @media screen and (min-width: 800px) {
      h1 {
           font-size: 12em;
-          margin-top: 250px
+          
      }
 }
 @media screen and (max-width: 800px) {
      h1 {
-          font-size: 4em;
-          margin-top: 440px
+          font-size: 3em;
      }
 }
 
-.header {
-display: grid;
 
-}
 
 p {
      color: var(--white-color);
      z-index: 1;
      font-family: sans-serif;
-     margin: 10px
+     margin: 0;
 }
 
 @media screen and (min-width: 600px) {
      p {
           font-size: 40px;
-          margin-top: -600px
+         
      }
 }
 @media screen and (max-width: 600px) {
      p {
           font-size: 30px;
-          margin-top: -225px;
+          
      
      }
 }
 
 @media screen and (max-width: 600px) {
      .subtitle {
-    color: black;
-    margin-top: 170px;
-    text-align: right;
+    color: var(--white-color);
+    text-align: left;
     font-weight: bold;
      
      }

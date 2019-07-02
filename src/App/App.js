@@ -12,10 +12,14 @@ import ScrollingColorBackground from "react-scrolling-color-background"
 
 function App() {
   return (
-<div>
+  <div>
+
 
 <LandingSection />
-      {/* <ScrollingColorBackground
+<AboutMe />
+
+
+   {/* <ScrollingColorBackground
         selector='.js-color-stop[data-background-color]'
         colorDataAttribute='data-background-color'
         initialRgb='#331832'
@@ -26,7 +30,7 @@ function App() {
         className='js-color-stop'
       ><AboutMe /></section>
 
-      <section
+     <section
         data-background-color='#331832'
         className='js-color-stop'
       ><TechnologySection /> </section>
@@ -44,8 +48,9 @@ function App() {
       <section
         data-background-color='#000000'
         className='js-color-stop'
-      ><ContactMe /></section> */}
-</div>
+      ><ContactMe /></section>  */}
+      </div>
+
   );
 }
 

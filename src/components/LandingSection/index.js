@@ -13,13 +13,12 @@ export default class LandingSection extends React.Component {
                 <div className={CSS.mainCoverContainer} style={{
                     backgroundPosition: 'right',
                     backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat', zIndex: 1, backgroundImage: "url(" + Background + ")" }}>
+                    backgroundAttachment: 'fixed',
+                backgroundRepeat: 'no-repeat', zIndex: 1, backgroundImage: "url(" + Background + ")" }}>
                    <div className={CSS.header}>
+                        <p>front end developer.</p>
                        <h1 >Hello, I'm Sahela Rani</h1>
-                   </div>
-                <div className={CSS.title}>
-                    <p>front end developer. </p>
-                    <p className={CSS.subtitle}>scroll down.</p>
+                        <p>have a scroll.</p>
             </div>
             </div>
             </div>
