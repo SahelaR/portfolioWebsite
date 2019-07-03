@@ -1,13 +1,16 @@
 import React from 'react'
 import CSS from "../AboutMe/AboutMe.module.css"
-import Portrait from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/portrait2.png"
+import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/background.svg"
 
 export default class AboutMe extends React.Component {
   render() {
     return (
       <div>
-        <div className={CSS.mainCoverContainer}>
-          <img className={CSS.portrait} src={Portrait} alt="Sahela" />
+        <div className={CSS.mainCoverContainer} style={{
+             backgroundPosition: 'right',
+            backgroundSize: 'cover',
+            backgroundAttachment: 'fixed',
+          backgroundRepeat: 'no-repeat', zIndex: 1, backgroundImage: "url(" + Background + ")" }}>
           </div>
         <p style={{color: "black", fontSize: "100px"}}>Tuning into prespectives & turning out design. </p>
         <p style={{ color: "black", fontSize: "50px" }}>Creating websites, mobile  & software applications. </p>
