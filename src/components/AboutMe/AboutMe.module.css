@@ -2,7 +2,23 @@
     min-height: 100vh;
      display: flex;
      justify-content: space-around;
-     align-items: center;
-
+     background-color: var(--black-color)
 }
 
+.portrait {
+    align-content: left;
+}
+
+@media screen and (min-width: 800px) {
+    .portrait {
+           width: 50%;
+           height: 50%;
+          
+     }
+}
+@media screen and (max-width: 800px) {
+     .portrait {
+          width: 100vh;
+            height: 50%;
+     }
+}
