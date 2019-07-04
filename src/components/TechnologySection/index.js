@@ -8,7 +8,8 @@ export default class TechnologySection extends React.Component {
                 <div className={CSS.mainCoverContainer}>
                     <div className={CSS.hexContainer}>
                         <ol className={CSS.even}>
-                            <li className={CSS.hex}></li>
+                            <li className={CSS.hex}>
+                            </li>
                             <li className={CSS.hex}></li>
                             <li className={CSS.hex}></li>
                             <li className={CSS.hex}></li>
