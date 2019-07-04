@@ -1,24 +1,25 @@
 import React from 'react'
 import CSS from "../AboutMe/AboutMe.module.css"
-import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/background.svg"
+import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/landing.png"
 
 export default class AboutMe extends React.Component {
   render() {
     return (
       <div>
         <div className={CSS.mainCoverContainer} style={{
-             backgroundPosition: 'right',
             backgroundSize: 'cover',
             backgroundAttachment: 'fixed',
           backgroundRepeat: 'no-repeat', zIndex: 1, backgroundImage: "url(" + Background + ")" }}>
           </div>
-        <p style={{color: "black", fontSize: "100px"}}>Tuning into prespectives & turning out design. </p>
-        <p style={{ color: "black", fontSize: "50px" }}>Creating websites, mobile  & software applications. </p>
-        <p style={{ color: "black", fontSize: "50px" }}>Law student logic.. </p>
-        <p style={{ color: "black", fontSize: "40px" }}>now Coder, taking a structured & detail-orientated approach to breaking down problems, 
+          <div className={CSS.header}>
+          <p className={CSS.forty} >Law student logic.. </p>
+          <p className={CSS.hundered}>Tuning into perspectives & turning out code. </p>
+        <br />
+          <p className={CSS.forty}> taking a structured & detail-orientated approach to coding, 
         at the core finding creative solutions. </p>
-        <p style={{ color: "black", fontSize: "70px" }}>React.js & React-Native Junior developer. </p>
-        <p style={{ color: "black", fontSize: "25px" }}>school of code 2019 Alumni. </p>
+          <p className={CSS.fifty}>websites, mobile  & software applications. </p>
+          <p className={CSS.twenty} >React.js & React-Native Junior developer. </p>
+      </div>
         
       </div>
     )

@@ -1,24 +1,70 @@
 .mainCoverContainer {
     min-height: 100vh;
-     display: flex;
-     justify-content: space-around;
-     background-color: var(--black-color)
 }
 
-.portrait {
-    align-content: left;
+@media screen and (max-width: 800px) {
+.header {
+position: absolute;
+right: 0;
+bottom: -500px;
+left: 0;
+padding: 1rem;
+text-align: left;
+}
+}
+
+
+p {
+     color: var(--white-color)
 }
 
 @media screen and (min-width: 800px) {
-    .portrait {
-           width: 50%;
-           height: 50%;
-          
-     }
+    .forty {
+        font-size: 40px;
+    }
 }
+
+
 @media screen and (max-width: 800px) {
-     .portrait {
-          width: 100vh;
-           
-     }
+    .forty {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .hundered {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hundered {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .fifty {
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .fifty {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .twenty {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .twenty {
+        font-size: 10px;
+    }
 }
