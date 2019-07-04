@@ -77,7 +77,7 @@
 .categories div h1 {
   width:90%;
   padding:0 5%;
-  background-color:#008080; background-color: rgba(0, 128, 128, 0.8);
+ background-color: rgb(51,21,50, 0.8);
   font-family: 'Raleway', sans-serif;
   
   -webkit-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
