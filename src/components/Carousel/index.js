@@ -48,7 +48,13 @@ export default  class Carousel extends React.Component {
                 item.selected = false;
             }
         });
+
+        this.setState({
+            items
+        })
     }
+
+
 
     makeItems = (items) => {
         return items.map(item => {
