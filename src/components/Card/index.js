@@ -1,6 +1,7 @@
-import react from 'react'
+import React from 'react'
+import CardInfo from "../CardInfo"
 
-function Card(prop) {
+function Card(props) {
     return (
         <div>
             <img className="" src={props.item.imgSrc} alt={props.item.imgSrc} />

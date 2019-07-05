@@ -5,3 +5,5 @@ function CardInfo(props){
         <p>CardInfo</p>
     )
 }
+
+export default CardInfo;
