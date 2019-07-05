@@ -1,11 +1,27 @@
 .mainCoverContainer {
     min-height: 100vh;
      display: flex;
-     justify-content: space-around;
-     align-items: center; 
+     background-color: #331832
+
 }
+
+.tabs {
+    margin-top: 50px;
+}
+
+
 
 p {
     color: var(--white-color);
      z-index: 1;
+     display: inline;
+     font-size: 30px;
+     margin-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    p {
+          font-size: 20px;
+          
+     }
 }
