@@ -3,8 +3,9 @@ import Card from "../Card"
 
 import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/landing.png"
 
-class Carousel extends React.Component {
+export default  class Carousel extends React.Component {
     constructor(props) {
+        super(props)
         this.state = {
             items: [
                 {
@@ -20,7 +21,7 @@ class Carousel extends React.Component {
                     title: 'BrumGo',
                     subTtitle: 'React-Native',
                     imgSrc: Background,
-                      link: 'https://github.com/SchoolOfCode/final-project-app-brumgo-front-end',
+                    link: 'https://github.com/SchoolOfCode/final-project-app-brumgo-front-end',
                     selected: false
                 },
                 {
@@ -40,7 +41,7 @@ class Carousel extends React.Component {
     handleCardClick = (id, card ) => {
         let items = {...this.state.items};
 
-        item[id].selected = item[id].selected ? false : true;
+        items[id].selected = items[id].selected ? false : true;
 
         items.ForEach(item => {
             if(item.id !== id) {
@@ -63,4 +64,3 @@ class Carousel extends React.Component {
     }
 }
 
-export default Carousel
