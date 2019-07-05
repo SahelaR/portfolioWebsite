@@ -65,7 +65,9 @@ export default  class Carousel extends React.Component {
 
     render() {
         return (
-            <p>Projects</p>
+            <div>
+            {this.makeItems(this.state.items)}
+            </div>
         )
     }
 }
