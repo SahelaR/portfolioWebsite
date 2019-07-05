@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from "../Card"
 
 import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/landing.png"
 
