@@ -1,7 +1,9 @@
 import React from 'react';
 import Card from "../Card"
 
-import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/landing.png"
+import { Container, Row } from 'react-bootstrap';
+
+import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/portrait.png"
 
 export default  class Carousel extends React.Component {
     constructor(props) {
@@ -39,6 +41,8 @@ export default  class Carousel extends React.Component {
     }
 
     handleCardClick = (id, card ) => {
+        console.log(id)
+
         let items = {...this.state.items};
 
         items[id].selected = items[id].selected ? false : true;
@@ -58,16 +62,19 @@ export default  class Carousel extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} click={(e => this.handleCardClick(item.id.e))} key={item.id} />
+            return <Card item={item} onClick={(e => this.handleCardClick(item.id.e))} key={item.id} />
         })
     }
  
 
     render() {
         return (
-            <div>
-            {this.makeItems(this.state.items)}
-            </div>
+            <Container fluid={true}>
+                <Row className="justify-content-around">
+                    {this.makeItems(this.state.items)}
+                </Row>
+            </Container>
+           
         )
     }
 }
