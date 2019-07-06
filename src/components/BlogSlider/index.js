@@ -8,12 +8,12 @@ export default class BlogSlider extends React.Component {
 
           <section className="section1">
           <a href="#section3">></a>
-          <a href="#section2"></a>
+          <a href="#section2">></a>
           </section>
 
             <section className="section2">
             <a href="#section1">></a>
-            <a href="#section3"></a>     
+            <a href="#section3">></a>     
             </section>
 
             <section className="section3">
