@@ -1,0 +1,15 @@
+.mainCoverContainer {
+    min-height: 15vh;
+     background-color: #111;
+}
+
+
+.footerText {
+    color: var(--white-color);
+     z-index: 1;
+     font-size: 15px;
+     text-align: center
+     
+}
+
+
