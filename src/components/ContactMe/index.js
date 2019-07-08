@@ -27,9 +27,6 @@ export default class ContactMe extends React.Component {
         return (
             
             <div className={CSS.mainContainer}>
-                <h1>
-                    <a name="contact">contact</a>
-                </h1>
                 <h2>drop me a message</h2>
                 <br />
                 <div className={CSS.container}>
