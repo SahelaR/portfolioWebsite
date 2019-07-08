@@ -6,6 +6,7 @@ import TechnologySection from "../components/TechnologySection"
 import PortfolioSection from "../components/PortfolioSection"
 import ContactMe from "../components/ContactMe"
 import BlogSection from "../components/BlogSection"
+import Footer from "../components/Footer"
 
 
 
@@ -16,10 +17,11 @@ function App() {
 
 <LandingSection />
 <AboutMe />
-<TechnologySection />
 <PortfolioSection />
+<TechnologySection />
 <BlogSection />
 <ContactMe />
+<Footer />
 
       </div>
 

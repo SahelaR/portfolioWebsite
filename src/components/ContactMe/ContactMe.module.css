@@ -1,11 +1,186 @@
-.mainCoverContainer {
-    min-height: 100vh;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
+.mainContainer {
+  min-height: 65vh;
+  background-color: #331832;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 p {
     color: var(--white-color);
      z-index: 1;
 }
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  padding-bottom: 200px;
+}
+
+.contactList {
+  position: relative;
+  font-size: 2.3rem;
+  text-align: center;
+  width: 100%;
+  margin-left: 33px;
+}
+
+.contactList li a {
+  color: #fff;
+}
+
+.contactList li {
+  position: relative;
+  top: 0;
+  left: -20px;
+  display: inline-block;
+  height: 80px;
+  width: 70px;
+  margin: 10px auto;
+  line-height: 70px;
+  border-radius: 10%;
+  color: #fff;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 10px;
+}
+
+.contactList li:hover {
+  background-color: black;
+}
+
+.contactList li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.contactList li:hover a {
+  color: #111;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.name {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 220px;
+  height: 48px;
+  margin: 3px;
+  background-color: #331832;
+  color: white;
+  text-align: center;
+}
+
+.email {
+  width: 220px;
+  height: 48px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 3px;
+  background-color: #331832;
+  color: white;
+  text-align: center;
+}
+
+.message {
+  width: 450px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 3px;
+  background-color: #331832;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  width: 99%;
+  height: 38px;
+  margin-left: 5px;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  color: #331832;
+  font-size: 15px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  border: black;
+}
+
+.button:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.scrollUp {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in 3s;
+  transition: all 0.5s ease-in 3s;
+}
+
+.scrollUp {
+  position: relative;
+  bottom: -15px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #fff;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  transform: scale(1);
+}
+
+.scrollUp:before {
+  position: absolute;
+  top: calc(70% - 10px);
+  left: calc(53% - 7px);
+  transform: rotate(135deg);
+  display: block;
+  width: 12px;
+  height: 12px;
+  content: "";
+  border: 2px solid white;
+  border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+

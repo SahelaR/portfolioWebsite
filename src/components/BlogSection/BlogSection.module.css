@@ -1,11 +1,10 @@
 .mainCoverContainer {
-    min-height: 100vh;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
+    min-height: 40vh;
+    background-color: var(--black-color)
 }
 
 p {
     color: var(--white-color);
      z-index: 1;
+     margin-left: 10px;
 }

@@ -3,13 +3,14 @@ import {useSpring, animated } from 'react-spring'
 import CSS from "../CardInfo"
 
 
+
 function CardInfo(props){
 
     const style = useSpring({opacity: 1, from: {opacity: 0}})
     return (
-<animated.div className="gCardInfo" style={style}>
-    <p className="gCardTitle">{props.title}</p>
-    <p className="gCardSubTitle">{props.subTitle}</p>
+<animated.div className="g-card-info" style={style}>
+    <p className="g-card-title">{props.title}</p>
+    <p className="g-card-sub-title">{props.subTitle}</p>
     <a  href={props.link} target="_blank" rel="noopener noreferrer">View</a>
 </animated.div>
     )
