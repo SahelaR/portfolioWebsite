@@ -6,4 +6,5 @@
 p {
     color: var(--white-color);
      z-index: 1;
+     padding: 10px
 }
