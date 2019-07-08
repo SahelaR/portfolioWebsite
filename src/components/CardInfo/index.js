@@ -4,6 +4,7 @@ import CSS from "../CardInfo"
 
 
 
+
 function CardInfo(props){
 
     const style = useSpring({opacity: 1, from: {opacity: 0}})
