@@ -8,9 +8,11 @@
      color: rgb(169, 169, 169);
      z-index: 1;
      font-size: 15px;
-     text-align: center;
-     padding-bottom: 2px
      
+}
+
+.copyright {
+     text-align: center;
 }
 
 .socialIcons {

@@ -1,6 +1,6 @@
 import React from 'react'
 import CSS from "../LandingSection/LandingSection.module.css"
-import Portrait from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/portrait2.png"
+import Portrait from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/portrait.png"
 
 
 
