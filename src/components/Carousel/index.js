@@ -5,8 +5,6 @@ import { Container, Row } from 'react-bootstrap';
 
 import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/portrait.png"
 
-import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/landing.png"
-
 
 export default  class Carousel extends React.Component {
     constructor(props) {
