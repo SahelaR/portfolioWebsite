@@ -58,7 +58,7 @@ export default  class Carousel extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} onClick={(e => this.handleCardClick(item.id.e))} key={item.id} />
+            return <Card item={item} click={(e => this.handleCardClick(item.id.e))} key={item.id} />
         })
     }
  
