@@ -17,8 +17,8 @@ function App() {
 
 <LandingSection />
 <AboutMe />
-<TechnologySection />
 <PortfolioSection />
+<TechnologySection />
 <BlogSection />
 <ContactMe />
 <Footer />
