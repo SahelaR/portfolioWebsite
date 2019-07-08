@@ -6,6 +6,7 @@ import TechnologySection from "../components/TechnologySection"
 import PortfolioSection from "../components/PortfolioSection"
 import ContactMe from "../components/ContactMe"
 import BlogSection from "../components/BlogSection"
+import Footer from "../components/Footer"
 
 
 
@@ -20,6 +21,7 @@ function App() {
 <PortfolioSection />
 <BlogSection />
 <ContactMe />
+<Footer />
 
       </div>
 
