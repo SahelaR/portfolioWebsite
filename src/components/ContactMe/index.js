@@ -28,7 +28,7 @@ export default class ContactMe extends React.Component {
             
             <div className={CSS.mainContainer}>
                 <h2>drop me a message</h2>
-                <br />
+            <br></br>
                 <div className={CSS.container}>
                     <form className={CSS.form}>
                         <input

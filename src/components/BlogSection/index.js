@@ -8,6 +8,7 @@ export default class BlogSection extends React.Component {
             <div>
                 <div className={CSS.mainCoverContainer}>
                     <p>blog.</p>
+                    <br />
                     <BlogSlider />
                 </div>
             </div>
