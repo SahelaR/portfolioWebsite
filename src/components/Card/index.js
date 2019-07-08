@@ -1,5 +1,6 @@
 import React from 'react'
 import CardInfo from "../CardInfo"
+import CSS from "../Card"
 
 function Card(props) {
     return (

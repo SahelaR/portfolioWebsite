@@ -1,7 +1,12 @@
 import React from 'react';
 import Card from "../Card"
 
+import { Container, Row } from 'react-bootstrap';
+
+import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/portrait.png"
+
 import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/landing.png"
+
 
 export default  class Carousel extends React.Component {
     constructor(props) {
@@ -39,6 +44,10 @@ export default  class Carousel extends React.Component {
     }
 
     handleCardClick = (id, card ) => {
+
+        console.log(id)
+
+
         let items = {...this.state.items};
 
         items[id].selected = items[id].selected ? false : true;
@@ -65,9 +74,13 @@ export default  class Carousel extends React.Component {
 
     render() {
         return (
-            <div>
-            {this.makeItems(this.state.items)}
-            </div>
+
+            <Container fluid={true}>
+                <Row className="justify-content-around">
+                    {this.makeItems(this.state.items)}
+                </Row>
+            </Container>
+        
         )
     }
 }
