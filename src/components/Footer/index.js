@@ -11,7 +11,7 @@ export default class Footer extends Component {
             <div className={CSS.copyright}>
                 <p className={CSS.footerText}>Made in React.js</p>
                 <br />
-                <p className={CSS.footerText}>By Sahela Rani © 2019 . All Rights Reserved</p>
+                <p className={CSS.footerText}>By Sahela Rani © 2019 - 2022 . All Rights Reserved</p>
 
             </div>
 
