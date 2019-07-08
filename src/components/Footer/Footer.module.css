@@ -5,11 +5,25 @@
 
 
 .footerText {
-    color: #A9A9A9;
+     color: rgb(169, 169, 169);
      z-index: 1;
      font-size: 15px;
-     text-align: center
+     text-align: center;
+     padding-bottom: 2px
      
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+li {
+padding: 15px;
+
 }
 
 
