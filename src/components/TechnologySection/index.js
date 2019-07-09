@@ -4,95 +4,19 @@ import CSS from "../TechnologySection/TechnologySection.module.css"
 export default class TechnologySection extends React.Component {
     render() {
         return (
-            <div>
-                <div className={CSS.mainCoverContainer}>
+<div className={CSS.mainCoverContainer}>
 
-                    <ul className={CSS.categories}>
-                        <li className={CSS.pusher}></li>
-                        <li>
-                            <div>
-                                <i class="devicon-html5-plain"></i>
-                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt=""/>
-                                <h1>HTML</h1>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <i class="devicon-css3-plain"></i>
-                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
-                                <h1>CSS</h1>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <i class="devicon-javascript-plain"></i>
-                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
-                                <h1>Javascript</h1>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <i class="devicon-react-original"></i>
-                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
-                                <h1>React.js</h1>
-                            </div>
-                        </li>
-                        <li class="pusher"></li>
-                        <li>
-                            <div>
-                                <i class="devicon-nodejs-plain"></i>
-                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
-                                <h1>Node.js</h1>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div>
-                                <i class="devicon-mongodb-plain"></i>
-                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
-                                <h1>Mongodb</h1>
-                            </div>
-                        </li>
-                        <li class="pusher"></li>
-                        <li>
-                            <div>
-                                <i class="devicon-github-plain"></i>
-                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
-                                <h1>GitHub</h1>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <i class="devicon-slack-plain"></i>
-                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
-                                <h1>Slack</h1>
-                            </div>
-                        </li><li>
-                            <div>
-                                <i class="devicon-visualstudio-plain"></i>
-                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
-                                <h1>Visual Studio</h1>
-                               
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <i class="devicon-illustrator-plain"></i>
-                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
-                                <h1>Adobe Illustrator</h1>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <i class="devicon-photoshop-plain"></i>
-                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
-                                <h1>Adobe Photoshop</h1>
-                            </div>
-                        </li>
-                     
-                        </ul>
-                        </div>            
-            </div>
-            )
-            }
+</div>
+        )}
 }
+
+{/* <svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="170.49px" height="177px" viewBox="0 0 170.49 177" overflow="inherit" space="preserve">
+  <polygon class="hex" points="16.623,87 0,58.5 16.623,30 49.868,30 66.49,58.5 49.868,87 " />
+                <polygon className={CSS.hex} points="68.623,57 52,28.5 68.623,0 101.868,0 118.49,28.5 101.868,57 " />
+                <polygon className={CSS.hex} points="120.623,87 104,58.5 120.623,30 153.868,30 170.49,58.5 153.868,87 " />
+                <polygon className={CSS.hex} points="120.623,147 104,118.5 120.623,90 153.868,90 170.49,118.5 153.868,147 " />
+                <polygon className={CSS.hex} points="68.623,177 52,148.5 68.623,120 101.868,120 118.49,148.5 101.868,177 " />
+                <polygon className={CSS.hex} points="16.623,147 0,118.5 16.623,90 49.868,90 66.49,118.5 49.868,147 " />
+                <polygon className={CSS.hex} points="68.623,117 52,88.5 68.623,60 101.868,60 118.49,88.5 101.868,117 " />
+</svg> */}
+           
