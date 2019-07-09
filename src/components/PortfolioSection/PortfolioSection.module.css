@@ -1,24 +1,28 @@
 .mainCoverContainer {
     min-height: 100vh;
-     display: flex;
-
-     background-color: #331832
+     background-color: var(--black-color)
 
 
 }
 
-.tabs {
-    margin-top: 50px;
+h3 {
+    color: var(--white-color);
+    z-index: 1;
 }
 
+.filter {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+}
 
-
-p {
+li {
     color: var(--white-color);
      z-index: 1;
-     display: inline;
-     font-size: 30px;
-     margin-left: 20px;
+    margin: 0px 5px 0px 0px;
+    float: none;
+    display: inline-block;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 800px) {
