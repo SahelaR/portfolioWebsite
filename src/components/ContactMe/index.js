@@ -1,5 +1,6 @@
-import React from 'react'
-import CSS from "../ContactMe/ContactMe.module.css"
+import React from "react";
+import CSS from "../ContactMe/ContactMe.module.css";
+import { SocialIcon } from "react-social-icons";
 
 export default class ContactMe extends React.Component {
     state = {
@@ -18,19 +19,14 @@ export default class ContactMe extends React.Component {
         console.log(this.state);
     };
 
-
-
-
-
-
     render() {
         return (
-            
             <div className={CSS.mainContainer}>
-                <h2>drop me a message</h2>
-            <br></br>
-                <div className={CSS.container}>
+    
                     <form className={CSS.form}>
+                    <p>connect.</p>
+                    <br />
+                    <br />
                         <input
                             name="name"
                             placeholder="name"
@@ -48,26 +44,34 @@ export default class ContactMe extends React.Component {
                             onChange={e => this.change(e)}
                         />
                         <br />
-                        <input
+                        <textarea
                             placeholder="message"
                             name="message"
+                            rows="10"
                             className={CSS.message}
                             value={this.state.message}
                             onChange={e => this.change(e)}
                         />
 
                         <br />
+                        <button className={CSS.button} onClick={() => this.onSubmit()}>Send</button>
+                         </form>
+                          <br />
 
-                        <button className={CSS.button} onClick={() => this.onSubmit()}>
-                            Send
-            </button>
-                    </form>
-                </div>
-                </div>
 
-                  
-            
-               
-        )
+                <ul className={CSS.contactList}>
+                    <p>i am social.</p>
+                    <br />
+                    <li><SocialIcon url="https://twitter.com/sxhelar" bgColor="#331832" /> </li>
+                    <li><SocialIcon url="https://medium.com/@sahelarani1" bgColor="#331832" /></li>
+                    <li><SocialIcon url="https://www.linkedin.com/in/sahelarani/" bgColor="#331832"/></li>
+                    <li><SocialIcon url="https://github.com/SahelaR" bgColor="#331832" /></li>
+                    <br />
+                    <p>drop me a message.</p>
+                   
+                </ul>
+                <br />
+                </div>
+        );
     }
 }
