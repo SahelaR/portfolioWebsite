@@ -22,9 +22,11 @@ export default class ContactMe extends React.Component {
     render() {
         return (
             <div className={CSS.mainContainer}>
-                   
-                   
+    
                     <form className={CSS.form}>
+                    <p>connect.</p>
+                    <br />
+                    <br />
                         <input
                             name="name"
                             placeholder="name"
@@ -42,9 +44,10 @@ export default class ContactMe extends React.Component {
                             onChange={e => this.change(e)}
                         />
                         <br />
-                        <input
+                        <textarea
                             placeholder="message"
                             name="message"
+                            rows="10"
                             className={CSS.message}
                             value={this.state.message}
                             onChange={e => this.change(e)}
@@ -57,10 +60,15 @@ export default class ContactMe extends React.Component {
 
 
                 <ul className={CSS.contactList}>
+                    <p>i am social.</p>
+                    <br />
                     <li><SocialIcon url="https://twitter.com/sxhelar" bgColor="#331832" /> </li>
                     <li><SocialIcon url="https://medium.com/@sahelarani1" bgColor="#331832" /></li>
                     <li><SocialIcon url="https://www.linkedin.com/in/sahelarani/" bgColor="#331832"/></li>
                     <li><SocialIcon url="https://github.com/SahelaR" bgColor="#331832" /></li>
+                    <br />
+                    <p>drop me a message.</p>
+                   
                 </ul>
                 <br />
                 </div>
