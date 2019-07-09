@@ -22,24 +22,8 @@ code {
 
 
 
-.gCard {
-  margin: 20px
-}
 
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-}
-
-h1 {
-  font-family: Arial;
-  color: red;
-  text-align: center;
-}
 
 .wrapper {
   display: grid;
@@ -102,34 +86,7 @@ h1 {
 }
 
 
-.g-card {
-  margin: 20px
-}
 
-.g-margin-image {
-  border-radius: 10px;
-  width: 300px;
-  height: 480px;
-  box-shadow: 0px 0px 3px 1px #ccc
-}
-
-
-.gCardInfo {
-  margin-top: 10px;
-  min-height:180px;
-}
-
-
-.gCardTitle {
-  font-size: 24px;
-  margin: 0px;
-}
-
-
-.g-card-sub-title {
-  font-size: 16px;
-  margin: 0px
-}
 
 
 :root {
