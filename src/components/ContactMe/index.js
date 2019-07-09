@@ -22,12 +22,8 @@ export default class ContactMe extends React.Component {
     render() {
         return (
             <div className={CSS.mainContainer}>
-                <h1>
-                    <a name="contact">contact</a>
-                </h1>
-                <h2>drop me a message</h2>
-                <br />
-                <div className={CSS.container}>
+                   
+                   
                     <form className={CSS.form}>
                         <input
                             name="name"
@@ -55,40 +51,19 @@ export default class ContactMe extends React.Component {
                         />
 
                         <br />
+                        <button className={CSS.button} onClick={() => this.onSubmit()}>Send</button>
+                         </form>
+                          <br />
 
-                        <button className={CSS.button} onClick={() => this.onSubmit()}>
-                            Send
-            </button>
-                    </form>
-                </div>
-                <br />
-                <h2>i am social</h2>
-                <br />
+
                 <ul className={CSS.contactList}>
-                    <li>
-                        <SocialIcon url="https://twitter.com/sxhelar" bgColor="#331832" />{" "}
-                    </li>
-                    <li>
-                        <SocialIcon
-                            url="https://medium.com/@sahelarani1"
-                            bgColor="#331832"
-                        />{" "}
-                    </li>
-                    <li>
-                        <SocialIcon
-                            url="https://www.linkedin.com/in/sahelarani/"
-                            bgColor="#331832"
-                        />{" "}
-                    </li>
-                    <li>
-                        <SocialIcon url="https://github.com/SahelaR" bgColor="#331832" />{" "}
-                    </li>
+                    <li><SocialIcon url="https://twitter.com/sxhelar" bgColor="#331832" /> </li>
+                    <li><SocialIcon url="https://medium.com/@sahelarani1" bgColor="#331832" /></li>
+                    <li><SocialIcon url="https://www.linkedin.com/in/sahelarani/" bgColor="#331832"/></li>
+                    <li><SocialIcon url="https://github.com/SahelaR" bgColor="#331832" /></li>
                 </ul>
                 <br />
-                <section>
-                    <a href="#home" className={CSS.scrollUp} address="true" />
-                </section>
-            </div>
+                </div>
         );
     }
 }
