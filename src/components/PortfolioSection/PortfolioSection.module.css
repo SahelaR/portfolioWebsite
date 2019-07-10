@@ -1,33 +1,50 @@
 .mainCoverContainer {
-    min-height: 100vh;
+    min-height: 60vh;
      background-color: var(--black-color)
 
 
 }
 
-h3 {
+.portfolio {
     color: var(--white-color);
     z-index: 1;
+    font-size: 40px;
+    position: relative;
+    padding: 25px 0px 20px 0px;
+    margin: 10px 0px 22px 0px;
+    line-height: 20px;
+    margin-left: 25px;
 }
 
+@media screen and (max-width: 800px) {
+    .portfolio {
+        font-size: 25px;
+        margin-left: 30px;
+          
+     }
+}
+
+
+
+
+
 .filter {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    line-height: 1.8em;
+    margin: 0px 0px 20px 0px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 17px;
 }
 
 li {
     color: var(--white-color);
      z-index: 1;
-    margin: 0px 5px 0px 0px;
+     margin: 0px 5px 0px 0px;
     float: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 20px;
+
 }
 
-@media screen and (max-width: 800px) {
-    p {
-          font-size: 20px;
-          
-     }
-}
+
