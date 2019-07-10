@@ -1,12 +1,35 @@
 .mainCoverContainer {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-     background-color: var(--black-color)
+     background-color: var(--black-color);
+     box-sizing: border-box;
 }
 
 
+@media screen and (max-width: 800px) {
+     .header {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+text-align: left;
+
+}
+} @media screen and (min-width: 800px) {
+     .header {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+text-align: left;
+
+}
+} 
 
 @media screen and (max-width: 800px) {
      .header {
@@ -22,23 +45,9 @@ text-align: left;
 
 
 
-.portrait {
-    align-content: left;
-}
 
-@media screen and (min-width: 800px) {
-    .portrait {
-          width: 100vh;
-          
-     }
-}
-@media screen and (max-width: 800px) {
-     .portrait {
-         width:100vh;
-     }
-}
 
-h1 {
+.myName {
      color: var(--white-color);
      z-index: 1;
      font-family: sans-serif;
@@ -46,14 +55,15 @@ h1 {
     
 }
 @media screen and (min-width: 800px) {
-     h1 {
+.myName {
           font-size: 10em;
           
      }
 }
 @media screen and (max-width: 800px) {
-     h1 {
+     .myName {
           font-size: 3em;
+          margin-left: 10px;
      }
 }
 
@@ -89,78 +99,6 @@ p {
      }
 } 
 
-
-
-
-
-
-
-
-
-/* .mainCoverContainer {
-    min-height: 100vh;
-}
-
-.header {
-position: absolute;
-right: 0;
-bottom: 0;
-left: 0;
-padding: 1rem;
-text-align: left;
-
-}
-
-h1 {
-     color: var(--white-color);
-     z-index: 1;
-     font-family: sans-serif;
-     margin: 0;
-    
-}
-@media screen and (min-width: 800px) {
-     h1 {
-          font-size: 12em;
-          
-     }
-}
-@media screen and (max-width: 800px) {
-     h1 {
-          font-size: 3em;
-     }
-}
-
-
-
-p {
-     color: var(--white-color);
-     z-index: 1;
-     font-family: sans-serif;
-     margin: 0;
-}
-
-@media screen and (min-width: 600px) {
-     p {
-          font-size: 40px;
-         
-     }
-}
-@media screen and (max-width: 600px) {
-     p {
-          font-size: 30px;
-          
-     
-     }
-}
-
-@media screen and (max-width: 600px) {
-     .subtitle {
-    color: var(--white-color);
-    text-align: left;
-    font-weight: bold;
-     
-     }
-} */
 
      
    

@@ -7,19 +7,20 @@ import Portrait from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/
 export default class LandingSection extends React.Component {
     render() {
         return (
-
             <div>
-                <div className={CSS.mainCoverContainer}>
-                    <div>
-                    <img className={CSS.portrait} src={Portrait} alt="profilePicture" />
-                </div>
+                    <div className={CSS.mainCoverContainer} style={{
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat', zIndex: 1, backgroundImage: "url(" + Portrait + ")"
+                    }}>
+                    </div> 
                 <div className={CSS.header}>
+                    <br />
+                    <br />
                         <p>front end developer.</p>
-                       <h1 >Hello, I'm Sahela Rani</h1>
+                       <h1 className={CSS.myName} >Hello, <br /> I'm Sahela Rani</h1>
                        <p>have a scroll.</p>
          </div>
          </div>
-            </div>
         )
     }
 }

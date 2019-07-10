@@ -1,5 +1,5 @@
 import React from 'react'
-import CSS from "../BlogSlider"
+
 
 export default class BlogSlider extends React.Component {
   render() {
