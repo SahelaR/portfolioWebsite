@@ -19,9 +19,9 @@ function App() {
 <LandingSection />
 <AboutMe />
 <PortfolioSection />
-
+<TechnologySection />
 <BlogSection />
-
+<ContactMe />
 <Footer />
 
       </div>

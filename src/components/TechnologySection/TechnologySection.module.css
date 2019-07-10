@@ -6,8 +6,20 @@
      
 }
 
-.mainCoverContainer {
-    min-height: 60vh;
-    background-color: var(--purple-color)
+.mainContainer {
+    min-height: 30vh;
+    background-color: var(--white-color)
     
+}
+
+.technology {
+    color: var(--purple-color);
+    z-index: 1;
+    font-size: 40px;
+    position: relative;
+    padding: 25px 0px 20px 0px;
+    margin: 10px 0px 22px 0px;
+    line-height: 20px;
+    margin-left: 25px;
+
 }
