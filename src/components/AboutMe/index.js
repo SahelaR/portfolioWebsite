@@ -14,10 +14,9 @@ export default class AboutMe extends React.Component {
             <h3 className={CSS.about}>about.</h3>
           <hr style={{width: "10% ", alignItems: "left"}} />
           <br />
-          <p className={CSS.paragraph}><strong >law student logic, taking a structure & detailed-orientated approach
-            to coding,</strong> building both website & mobile applications. after a 16 week coding bootcamp, react.js and react-native 
-            are my current favourite tools.<br /> tuning into perspective & turning out code.</p>
-            <br />
+          <p className={CSS.paragraph}><strong >law student is taking a structure & detailed-orientated approach
+            to coding,</strong> building both websites & mobile applications. after a 16 week coding bootcamp, react.js and react-native 
+            are my now current favourite tools, so looking for my next project - so get in contact.<br /> <br /></p><p className={CSS.paragraph} style={{ textAlign: "center"}}>tuning into perspective & turning out code.</p>
           <hr style={{ width: "10% ", alignItems: "left" }} />
       </div>
         </div>
