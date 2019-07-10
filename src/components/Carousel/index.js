@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from "../Card"
-import CSS from "../Carousel"
+import CSS from "../Carousel/Carousel.module.css"
 
 import { Container, Row } from 'react-bootstrap';
 
