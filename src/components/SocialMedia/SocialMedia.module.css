@@ -1,28 +1,31 @@
 .contactList {
-  position: relative;
   font-size: 2.3rem;
   text-align: center;
 }
 
-.contactList li a {
-  color: #fff;
-}
 
 .contactList li {
   position: relative;
   top: 0;
-  left: -20px;
   display: inline-block;
   height: 80px;
   width: 80px;
-  margin: 10px auto;
-  line-height: 70px;
-  border-radius: 10%;
+  line-height: 73px;
   background-color: var(--white-color);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   margin: 10px;
   border-radius: 50%;
+}
+
+.contactList li a {
+  color: #fff;
+  display: inline-block;
+   width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
 }
 
 .contactList li:hover {
@@ -37,4 +40,16 @@
 
 .contactList li:hover a {
   color: var(--black-color);
+}
+
+.subtitle {
+    font-size: 25px;
+    margin: 20px
+}
+
+
+@media screen and (max-width: 800px) {
+    .contactList {
+      margin-left: -30px
+     }
 }

@@ -6,8 +6,7 @@ export default class SocialMedia extends React.Component {
     render() {
         return (
                 <ul className={CSS.contactList}>
-                    <p>stay connected.</p>
-                    <br />
+                    <p className={CSS.subtitle}>stay connected</p>
                     <li><SocialIcon url="https://twitter.com/sxhelar" bgColor="#331832" /> </li>
                     <li><SocialIcon url="https://medium.com/@sahelarani1" bgColor="#331832" /></li>
                     <li><SocialIcon url="https://www.linkedin.com/in/sahelarani/" bgColor="#331832" /></li>

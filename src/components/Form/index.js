@@ -25,7 +25,7 @@ export default class Form extends React.Component {
 
     render() {
         return (
-            <form>
+            <form className={CSS.form}>
                 <input
                     name="name"
                     placeholder="name"
