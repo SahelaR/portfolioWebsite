@@ -18,6 +18,8 @@ export default class Icon extends React.Component {
                 <li>Github</li>
                 <li>ZenHub</li>
                 <li>Jest</li>
+                <li>AWS</li>
+                <li>Gatsby</li>
              </ul>
              
               </div>

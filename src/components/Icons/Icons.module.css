@@ -1,3 +1,5 @@
+
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -24,13 +26,23 @@
     justify-content: space-between;
 }
 
+@media screen and (min-width: 800px) {
+    .icons ul {
+        margin: 30px;
+    }
+}
+
+
+
 @media screen and (max-width: 800px) {
 .icons ul li {
     width: 33.333%;
     margin: 5px 0px;
+    
 }
 }
 
 .icons ul li {
 text-align: center;
+color: black;
 }
