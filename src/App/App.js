@@ -21,7 +21,6 @@ function App() {
 <PortfolioSection />
 <TechnologySection />
 <BlogSection />
-<ContactMe />
 <Footer />
 
       </div>
