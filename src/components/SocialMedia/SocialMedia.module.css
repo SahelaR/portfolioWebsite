@@ -1,0 +1,40 @@
+.contactList {
+  position: relative;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.contactList li a {
+  color: #fff;
+}
+
+.contactList li {
+  position: relative;
+  top: 0;
+  left: -20px;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin: 10px auto;
+  line-height: 70px;
+  border-radius: 10%;
+  background-color: var(--white-color);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.contactList li:hover {
+  background-color: var(--black-color);
+}
+
+.contactList li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.contactList li:hover a {
+  color: var(--black-color);
+}
