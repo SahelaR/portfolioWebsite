@@ -32,8 +32,6 @@
     }
 }
 
-
-
 @media screen and (max-width: 800px) {
 .icons ul li {
     width: 33.333%;
@@ -45,4 +43,11 @@
 .icons ul li {
 text-align: center;
 color: black;
+}
+
+.image {
+    height: 64px;
+    width: 64px;
+    vertical-align: middle;
+    border-style: none;
 }
