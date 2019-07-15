@@ -1,24 +1,30 @@
  .mainContainer {
   min-height: 50vh;
-  background-color: var(--black-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: var(--purple-color);
 }
 
-
-
-
-h2 {
-  color: white;
-}
 
 .contact {
-  width: 100%;
-  height: 100vh;
-  background-color: black;
-  padding-bottom: 200px;
+    color: var(--white-color);
+    z-index: 1;
+    font-size: 40px;
+    position: relative;
+    padding: 25px 0px 20px 0px;
+    margin: 10px 0px 22px 0px;
+    line-height: 20px;
+    margin-left: 25px;
 }
+
+@media screen and (max-width: 800px) {
+    .contact {
+        font-size: 25px;
+        margin-left: 30px;
+          
+     }
+}
+
+
+
 
 .contactList {
   position: relative;
