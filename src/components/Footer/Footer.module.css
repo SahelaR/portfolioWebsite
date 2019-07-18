@@ -1,6 +1,6 @@
 .mainCoverContainer {
     min-height: 10vh;
-     background-color: #111;
+     background-color: var(--white-color);
 }
 
 
