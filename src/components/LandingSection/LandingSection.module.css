@@ -6,6 +6,37 @@
     justify-content: space-evenly;
      background-color: var(--black-color);
      box-sizing: border-box;
+     z-index: 1, 
+}
+
+.textFocusIn {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
 }
 
 
@@ -17,6 +48,7 @@ bottom: 0;
 left: 0;
 padding: 1rem;
 text-align: left;
+
 
 }
 } @media screen and (min-width: 800px) {
@@ -40,6 +72,7 @@ left: 0;
 padding: 1rem;
 text-align: left;
 
+
 }
 } 
 
@@ -52,7 +85,8 @@ text-align: left;
      z-index: 1;
      font-family: sans-serif;
      margin: 0;
-    
+     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 @media screen and (min-width: 800px) {
 .myName {
@@ -63,7 +97,7 @@ text-align: left;
 @media screen and (max-width: 800px) {
      .myName {
           font-size: 3em;
-          margin-left: 10px;
+         
      }
 }
 
@@ -84,21 +118,8 @@ p {
 }
 @media screen and (max-width: 600px) {
      p {
-          font-size: 30px;
-          
+          font-size: 30px;        
      
      }
 }
 
-@media screen and (max-width: 600px) {
-     .subtitle {
-    color: var(--white-color);
-    text-align: left;
-    font-weight: bold;
-     
-     }
-} 
-
-
-     
-   
