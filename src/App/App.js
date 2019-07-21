@@ -1,6 +1,6 @@
 import React from "react"
 import "../App/App.css"
-import LandingSection from "../components/LandingSection"
+import MainComponent from "../components/MainComponent";
 
 const Loading = ({
 }) => {
@@ -41,7 +41,7 @@ export default class App extends React.Component {
     return (
       loading ? (<Loading />)
         : (<div>
-         <LandingSection />
+         <MainComponent />
         </div>)
     )
   }
