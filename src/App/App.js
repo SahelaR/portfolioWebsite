@@ -1,32 +1,48 @@
-import React from 'react';
-import './App.css';
+import React from "react"
+import "../App/App.css"
 import LandingSection from "../components/LandingSection"
-import AboutMe from "../components/AboutMe"
-import TechnologySection from "../components/TechnologySection"
-import PortfolioSection from "../components/PortfolioSection"
-import ContactMe from "../components/ContactMe"
-import BlogSection from "../components/BlogSection"
-import Footer from "../components/Footer"
 
-
-
-
-function App() {
+const Loading = ({
+}) => {
   return (
-  <div>
-
-
-<LandingSection />
-<AboutMe />
-<PortfolioSection />
-<TechnologySection />
-<BlogSection />
-<ContactMe /> 
-<Footer />
-
-      </div>
-
+    <div className="container">
+    <div className="loading">
+      <div></div>
+      <div></div>
+    </div>
+    </div>
   );
 }
 
-export default App;
+
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: true,
+      x: 0,
+      y: 0,
+    };
+  }
+
+  componentDidMount() {
+    this.isLoading = setTimeout(() => { this.setState({ loading: false }) }, 2300);
+  }
+  componentWillUnmount() {
+    clearTimeout(this.isLoading);
+  }
+
+  timer = () => setTimeout(() => {
+    this.setState({ loading: false })
+  }, 2300);
+
+  render() {
+    const { loading } = this.state;
+    return (
+      loading ? (<Loading />)
+        : (<div>
+         <LandingSection />
+        </div>)
+    )
+  }
+}
