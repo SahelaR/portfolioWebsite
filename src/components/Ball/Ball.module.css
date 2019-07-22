@@ -1,0 +1,29 @@
+.bb8 {
+    position: absolute;
+    margin-left: 140px/2;
+    width: 200px;
+
+}
+
+.ball {
+    border-radius: 50%;
+    height: 140px+25;
+    overflow: hidden;
+    position: relative;
+    width: 140px+50;
+}
+
+.instructions p {
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.image {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
