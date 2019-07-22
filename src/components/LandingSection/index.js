@@ -1,7 +1,8 @@
 import React from 'react'
 import CSS from "../LandingSection/LandingSection.module.css"
 import Portrait from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/Quantum.png"
-
+import Github from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/github.svg"
+import Medium from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/medium.svg"
 
 
 export default class LandingSection extends React.Component {
@@ -15,7 +16,12 @@ export default class LandingSection extends React.Component {
                     </div> 
                 <div className={CSS.header}>
                     <br />
-                    <br />
+                    <ul className={CSS.row}>
+                        <li><a className={CSS.icon} href="https://github.com/SahelaR"><img className={CSS.image} src={Github} alt="Github"></img></a>
+                        </li>
+                        <li><a className={CSS.icon} href="https://medium.com/@sahelarani1"><img className={CSS.image} src={Medium} alt="Medium"></img></a>
+                        </li>
+                        </ul>
                     <p className={CSS.textFocusIn}>front end developer.</p>
                        <h1 className={CSS.myName} >Hello, <br /> I'm Sahela Rani</h1>
                     <p className={CSS.textFocusIn}>have a scroll.</p>

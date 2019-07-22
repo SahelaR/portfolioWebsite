@@ -1,5 +1,4 @@
 import React from 'react'
-import CardInfo from "../CardInfo"
 import CSS from "../Card/Card.module.css"
 
 function Card(props) {

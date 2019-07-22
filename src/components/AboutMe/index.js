@@ -1,10 +1,10 @@
 import React from 'react'
 import CSS from "../AboutMe/AboutMe.module.css"
-import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/square.png"
-import Github from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/github-logo.svg"
-import Medium from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/medium.svg"
+import Portrait from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/portrait.png"
+
 
 export default class AboutMe extends React.Component {
+  
 
 
   render() {
@@ -14,10 +14,7 @@ export default class AboutMe extends React.Component {
          <div className={CSS.header}>
             <h3 className={CSS.about}>about.</h3>
             <ul className={CSS.row}>
-            <li><a className={CSS.icon} href="https://github.com/SahelaR"><img className={CSS.image} src={Github} alt="Github"></img></a>
-            </li>
-            <li><a className={CSS.icon} href="https://medium.com/@sahelarani1"><img className={CSS.image} src={Medium} alt="Medium"></img></a>
-              <a href="https://medium.com/@sahelarani1" />  </li> 
+            <li><img className={CSS.image} src={Portrait} alt="portrait"></img></li>
                 </ul>
           <hr style={{width: "10% ", alignItems: "left"}} />
           <p className={CSS.paragraph}>law student is taking a structure & detailed-orientated approach

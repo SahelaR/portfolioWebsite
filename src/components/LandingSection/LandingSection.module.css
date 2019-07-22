@@ -123,3 +123,32 @@ p {
      }
 }
 
+.row {
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+li {
+     padding: 5px
+}
+.image {
+    height: 64px;
+    width: 64px;
+    vertical-align: middle;
+    border-style: none;
+     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+
+@media screen and (max-width: 800px){
+    .image {
+    height: 50px;
+    width: 50px;
+
+}
+}

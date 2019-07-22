@@ -2,8 +2,8 @@ import React from "react"
 import "../App/App.css"
 import MainComponent from "../components/MainComponent";
 
-const Loading = ({
-}) => {
+// eslint-disable-next-line
+const Loading = ({}) => {
   return (
     <div className="container">
     <div className="loading">
