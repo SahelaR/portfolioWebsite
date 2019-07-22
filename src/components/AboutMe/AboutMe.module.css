@@ -94,11 +94,9 @@
     justify-content: center;
 }
 .image {
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
+    height: 165px;
+    width: 200px;
     vertical-align: middle;
     border-style: none;
 }
-
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import CSS from "../AboutMe/AboutMe.module.css"
-import Portrait from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/portrait.png"
+import Portrait from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/sr.svg"
 import Ball from "../Ball/index"
 
 export default class AboutMe extends React.Component {
@@ -12,10 +12,12 @@ export default class AboutMe extends React.Component {
 
         <div className={CSS.mainCoverContainer}>
          <div className={CSS.header}>
-           <Ball />
             <h3 className={CSS.about}>about.</h3>
+            <Ball />
+            <br />
             <ul className={CSS.row}>
-            <li><img className={CSS.image} src={Portrait} alt="portrait"></img></li>
+            <li><img className={CSS.image} src={Portrait} alt="portrait"></img>
+            <p style={{fontSize: "15px"}} className={CSS.paragraph}>move your mouse to see me</p></li>
                 </ul>
           <hr style={{width: "10% ", alignItems: "left"}} />
           <p className={CSS.paragraph}>law student is taking a structure & detailed-orientated approach
