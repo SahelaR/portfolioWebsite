@@ -2,7 +2,7 @@ import React from 'react';
 import Card from "../Card/index.js"
 import CSS from "../Carousel/Carousel.module.css"
 
-import { Container, Row } from 'react-bootstrap';
+
 
 import Background from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/portrait.png"
 
@@ -69,11 +69,11 @@ export default  class Carousel extends React.Component {
     render() {
         return (
 
-            <Container fluid={true}>
-                <Row className={CSS.justifyContentAround}>
+           
+                <div className={CSS.justifyContentAround}>
                     {this.makeItems(this.state.items)}
-                </Row>
-            </Container>
+                </div>
+    
         
         )
     }
