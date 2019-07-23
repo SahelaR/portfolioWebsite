@@ -51,3 +51,27 @@
   flex: 1 1 80%;
   min-height: 100vh;
 }
+
+.one {
+    grid-row: span 2;
+    grid-column: span 2;
+    background-color: blue
+}
+
+.two {
+    grid-row: span 2;
+    grid-column: span 3;
+    background-color: green
+}
+
+.three {
+    grid-row: span 2;
+    grid-column: span 3;
+    background-color: orange
+}
+
+.four {
+    grid-row: span 2;
+    grid-column: span 2;
+    background-color: purple
+}

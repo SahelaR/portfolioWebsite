@@ -10,10 +10,10 @@ export default class PortfolioSection extends React.Component {
                 <div className={CSS.mainCoverContainer}>
                     <div className={CSS.mainContent}>
                         <div  className={CSS.portfolioCont}>
-                            <div className={CSS.portfolioTitle} style={{ gridRow: "span 2", gridColumn: "span 2", backgroundColor: "blue"}}><span className={CSS.portfolio}>portfolio.</span></div>
-                            <div className={CSS.portfolioItem} style={{ gridRow: "span 2", gridColumn: "span 3", backgroundColor: "green"}}>brumgo</div>
-                            <div className={CSS.portfolioItem} style={{ gridRow: "span 2", gridColumn: "span 3", backgroundColor: "orange"}}>SAIZ</div>
-                            <div className={CSS.portfolioItem} style={{ gridRow: "span 2", gridColumn: "span 2", backgroundColor: "purple" }}>Talent Growth</div>
+                            <div className={CSS.portfolioTitle + ' ' + CSS.one}><span className={CSS.portfolio}>portfolio.</span></div>
+                            <div className={CSS.portfolioItem + ' ' + CSS.two}>brumgo</div>
+                            <div className={CSS.portfolioItem + ' ' + CSS.three}>SAIZ</div>
+                            <div className={CSS.portfolioItem + ' ' + CSS.four }>Talent Growth</div>
                         </div>
                     </div>
                 </div>
@@ -21,3 +21,6 @@ export default class PortfolioSection extends React.Component {
         )
     }
 }
+
+
+                                                  
