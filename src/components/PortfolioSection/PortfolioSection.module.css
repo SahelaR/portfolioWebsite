@@ -1,8 +1,5 @@
 .mainCoverContainer {
-    min-height: 70vh;
-     background-color: var(--black-color)
-
-
+    min-height: 60vh;
 }
 
 .portfolio {
@@ -14,7 +11,12 @@
     margin: 10px 0px 22px 0px;
     line-height: 20px;
     margin-left: 25px;
+    font-weight: bold;
+    transition: all ease-in-out 300ms;
+    top: 25px;
 }
+
+
 
 @media screen and (max-width: 800px) {
     .portfolio {
@@ -24,4 +26,28 @@
      }
 }
 
+.portfolioCont {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(150px, 300px) 1fr 2fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px
+}
 
+.portfolioItem {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   font-size: 1.5em;
+  background-size: cover;
+  background-position: top left;
+  transition: all ease-in-out 300ms;
+  position: relative;
+  z-index: 10;
+}
+
+.mainContent {
+  flex: 1 1 80%;
+  min-height: 100vh;
+}

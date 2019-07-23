@@ -6,6 +6,7 @@ import TechnologySection from "../TechnologySection"
 import ContactMe from "../ContactMe"
 import Footer from "../Footer"
 
+
 export default class MainComponent extends React.Component {
 render () {
     return (

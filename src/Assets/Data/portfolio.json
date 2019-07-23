@@ -1,0 +1,30 @@
+{
+
+    "Portfolio": [
+{
+                    "id": 0,
+                    "name": "Talent Growth",
+                    "subTtitle": "React.js, Node,js, Mongodb",
+                    "imgSrc": "Background",
+                    "link": "https: //github.com/SahelaR/SoC-week-8-ProjectWeekFrontEnd",
+                    "selected": "false"
+},
+{
+                    "id": 1,
+                    "name": "BrumGo",
+                    "subTtitle": "React-Native",
+                    "imgSrc": "Background",
+                    "link": "https: //github.com/SchoolOfCode/final-project-app-brumgo-front-end",
+                    "selected": "false"
+},
+{
+                    "id": 2,
+                    "name": "Sahela Rani",
+                    "subTtitle": "React.js",
+                    "imgSrc": "Background",
+                    "link": "https: //github.com/SahelaR/portfolioWebsite",
+                    "selected": "false"
+}
+]
+}
+
