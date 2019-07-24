@@ -103,7 +103,7 @@ text-align: left;
 
 
 
-p {
+.textFocusIn {
      color: var(--white-color);
      z-index: 1;
      font-family: sans-serif;
@@ -111,13 +111,13 @@ p {
 }
 
 @media screen and (min-width: 600px) {
-     p {
+     .textFocusIn {
           font-size: 40px;
          
      }
 }
 @media screen and (max-width: 600px) {
-     p {
+     .textFocusIn {
           font-size: 30px;        
      
      }

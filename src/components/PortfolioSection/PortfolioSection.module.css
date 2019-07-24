@@ -7,8 +7,6 @@
     z-index: 1;
     font-size: 40px;
     position: relative;
-    padding: 25px 0px 20px 0px;
-    margin: 10px 0px 22px 0px;
     line-height: 20px;
     margin-left: 25px;
     font-weight: bold;
@@ -35,17 +33,12 @@
 
 .portfolioItem {
   color: white;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   font-size: 1.5em;
   background-size: cover;
   background-position: top left;
   transition: all ease-in-out 300ms;
   position: relative;
   z-index: 10;
-}
+} 
 
 .mainContent {
   flex: 1 1 80%;
@@ -55,23 +48,62 @@
 .one {
     grid-row: span 2;
     grid-column: span 2;
-    background-color: blue
+   background: rgb(255,0,0);
+background: linear-gradient(300deg, rgba(255,0,0,1) 25%, rgba(238,0,255,1) 75%);
 }
-
 .two {
     grid-row: span 2;
     grid-column: span 3;
-    background-color: green
+     background: rgb(128,0,128);
+background: linear-gradient(300deg, rgba(128,0,128,1) 25%, rgba(255,0,0,1) 75%);
 }
-
 .three {
     grid-row: span 2;
     grid-column: span 3;
-    background-color: orange
+    background: rgb(0,0,119);
+background: linear-gradient(300deg, rgba(0,0,119,1) 25%, rgba(128,0,128,1) 75%);
 }
 
 .four {
     grid-row: span 2;
     grid-column: span 2;
-    background-color: purple
+       background: rgb(238,0,255);
+background: linear-gradient(300deg, rgba(238,0,255,1) 25%, rgba(0,0,119,1) 75%);
+}
+
+.brumgo {
+    bottom: 20px;
+    content: '';
+    display: block;
+    height: 60px;
+    /* opacity: 0; */
+    position: absolute;
+    right: 20px;
+    width: 60px;
+    z-index: 1;
+}
+
+/* .brumgo:hover {
+  opacity: 1;
+} */
+
+
+
+.app {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 16px;
+}
+
+p {
+    font-weight: 200;
+    margin-left: 40%;
+    font-size: 60px
+}
+
+@media screen and (max-width: 800px) {
+    p {
+        font-size: 35px;
+           margin-left: 10%;   
+     }
 }
