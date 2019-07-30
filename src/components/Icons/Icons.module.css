@@ -19,11 +19,11 @@
 
 .icons ul {
     margin: 0;
-    padding: 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 @media screen and (min-width: 800px) {
@@ -43,6 +43,7 @@
 .icons ul li {
 text-align: center;
 color: black;
+margin: 10px
 }
 
 .image {
