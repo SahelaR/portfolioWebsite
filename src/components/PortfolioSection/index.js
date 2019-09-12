@@ -4,7 +4,6 @@ import CSS from "../PortfolioSection/PortfolioSection.module.css"
 import BrumGo from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/brumGoLogo.svg"
 import TalentGrowth from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/talentGrowth.svg"
 import SAIZ from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/SAIZ.svg"
-import Arrow from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/arrow.svg"
 
 export default class PortfolioSection extends React.Component {
     render() {
@@ -15,7 +14,6 @@ export default class PortfolioSection extends React.Component {
                         <div  className={CSS.portfolioCont}>
                             <div className={CSS.portfolioTitle + ' ' + CSS.one}>
                                     <h2 className={CSS.portfolio}>portfolio.</h2>
-                                    <img className={CSS.logo} src={Arrow} alt="Arrow" />
                             </div>
                             <div className={CSS.portfolioItem + ' ' + CSS.two}>
                                 <div className={CSS.titlePrimary}>

@@ -15,8 +15,8 @@ render () {
         <AboutMe />
         <PortfolioSection />
         <TechnologySection />
-        <BlogSection />
         <ContactMe />
+            <BlogSection />
         <Footer />
         </>
     )

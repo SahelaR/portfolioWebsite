@@ -1,6 +1,7 @@
  .mainContainer {
   min-height: 50vh;
-  background-color: var(--purple-color);
+  background: rgb(0,0,119);
+background: linear-gradient(300deg, rgba(0,0,119,1) 25%, rgba(128,0,128,1) 75%);
 }
 
 
@@ -23,14 +24,14 @@
      }
 }
 
-.divider {
+.mainContainer {
   display: flex;
   justify-content: center;
 }
 
 
 @media screen and (max-width: 800px) {
-    .divider {
+    .mainContainer {
     flex-wrap: wrap;
           
      }
