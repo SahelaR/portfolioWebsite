@@ -78,26 +78,26 @@
 
 @media screen and (max-width: 800px) {
     .name {
-       width: 325px;
+       width: 320px;
      }
 }
 
 @media screen and (max-width: 800px) {
     .email {
-       width: 325px
+       width: 320px
      }
 }
 
 @media screen and (max-width: 800px) {
     .message {
-       width: 320px;
+       width: 326px;
        margin-top: -17px;
      }
 }
 
 @media screen and (max-width: 800px) {
     .button {
-       width: 330px;
+       width: 333px;
        margin-top: -17px;
      }
 }
