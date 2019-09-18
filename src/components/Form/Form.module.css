@@ -72,9 +72,14 @@
     .form {
        display: flex;
        flex-wrap: wrap;
-       width: 90%
-     }
+       width: 90%;
+      margin-top: 0px
 }
+
+     }
+
+
+
 
 @media screen and (max-width: 800px) {
     .name {
@@ -99,5 +104,6 @@
     .button {
        width: 333px;
        margin-top: -17px;
+       margin-bottom: 25px
      }
 }
