@@ -1,7 +1,7 @@
 import React from 'react'
 import Style from "../Icons/Icons.module.css"
 import HTML from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/html.svg"
-import CSS from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/css.svg"
+// import CSS from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/css.svg"
 import Javascript from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/javascript.svg"
 import Github from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/github-logo.svg"
 import Nodejs from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/nodejs.svg"
@@ -22,7 +22,7 @@ export default class Icon extends React.Component {
               <div className={Style.icons}>
              <ul>
                 <li><div className={Style.icon}><img className={Style.image} src={HTML} alt="HTML"></img></div></li>
-                        <li><div className={Style.icon}><img className={Style.image} src={CSS} alt="CSS"></img></div></li>
+                        {/* <li><div className={Style.icon}><img className={Style.image} src={CSS} alt="CSS"></img></div></li> */}
                         <li><div className={Style.icon}><img className={Style.image} src={Javascript} alt="Javascript"></img></div></li>
                         <li><div className={Style.icon}><img className={Style.image} src={Reactjs} alt="Reactjs"></img></div></li> 
                         <li><div className={Style.icon}><img className={Style.image} src={Github} alt="Github"></img></div></li>
