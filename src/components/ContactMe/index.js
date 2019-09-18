@@ -8,9 +8,9 @@ export default class ContactMe extends React.Component {
 render() {
         return (
             <div className={CSS.mainContainer}>
-              
+                <SocialMedia />
                     <Form />
-                    <SocialMedia />
+                
                 </div>
         );
     }

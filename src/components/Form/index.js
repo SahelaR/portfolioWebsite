@@ -25,7 +25,7 @@ export default class Form extends React.Component {
 
     render() {
         return (
-            <form className={CSS.form}>
+            <form  action="POST" data-netlify="true" className={CSS.form}>
                 <input
                     name="name"
                     placeholder="name"
