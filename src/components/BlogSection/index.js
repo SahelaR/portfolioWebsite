@@ -7,6 +7,7 @@ export default class BlogSection extends React.Component {
         return (
             <div>
                 <div className={CSS.mainContainer}>
+                    <h3 className={CSS.bloggit}>blog.</h3>
                     <BlogSlider />
                 </div>
             </div>
