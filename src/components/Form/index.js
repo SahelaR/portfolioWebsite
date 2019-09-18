@@ -20,12 +20,9 @@ export default class Form extends React.Component {
     };
 
 
-
-
-
     render() {
         return (
-            <form  action="POST" data-netlify="true" className={CSS.form}>
+            <form className={CSS.form}>
                 <input
                     name="name"
                     placeholder="name"
