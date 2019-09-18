@@ -1,6 +1,6 @@
 import React from 'react'
 import CSS from "../AboutMe/AboutMe.module.css"
-import Portrait from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/sr.svg"
+import Portrait from "../Images/sr.svg"
 import Ball from "../Ball/index"
 
 export default class AboutMe extends React.Component {

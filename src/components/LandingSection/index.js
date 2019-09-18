@@ -1,8 +1,8 @@
 import React from 'react'
 import CSS from "../LandingSection/LandingSection.module.css"
-import Portrait from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/Quantum.png"
-import Github from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/github.svg"
-import Medium from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/medium.svg"
+import Portrait from "../Images/Quantum.png"
+import Github from "../Images/github.svg"
+import Medium from "../Images/medium.svg"
 
 
 export default class LandingSection extends React.Component {

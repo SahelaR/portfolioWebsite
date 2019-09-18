@@ -1,17 +1,17 @@
 import React from 'react'
 import Style from "../Icons/Icons.module.css"
-import HTML from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/html.svg"
-// import CSS from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/css.svg"
-import Javascript from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/javascript.svg"
-import Github from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/github-logo.svg"
-import Nodejs from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/nodejs.svg"
-import Photoshop from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/photoshop.svg"
-import Illustrator from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/illustrator.svg"
-import Reactjs from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/reactjs.svg"
-import Mongodb from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/mongodb.svg"
-import Zenhub from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/zenhub.svg"
-import Jest from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/jest.svg"
-import Gatsby from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/gatsby.svg"
+import HTML from "../Images/html.svg"
+import CSS from "../Images/css.svg"
+import Javascript from "../Images/javascript.svg"
+import Github from "../Images/github.svg"
+import Nodejs from "../Images/nodejs.svg"
+import Photoshop from "../Images/photoshop.svg"
+import Illustrator from "../Images/illustrator.svg"
+import Reactjs from "../Images/reactjs.svg"
+import Mongodb from "../Images/mongodb.svg"
+import Zenhub from "../Images/zenhub.svg"
+import Jest from "../Images/jest.svg"
+import Gatsby from "../Images/gatsby.svg"
 
 
 export default class Icon extends React.Component {
@@ -22,7 +22,7 @@ export default class Icon extends React.Component {
               <div className={Style.icons}>
              <ul>
                 <li><div className={Style.icon}><img className={Style.image} src={HTML} alt="HTML"></img></div></li>
-                        {/* <li><div className={Style.icon}><img className={Style.image} src={CSS} alt="CSS"></img></div></li> */}
+                         <li><div className={Style.icon}><img className={Style.image} src={CSS} alt="CSS"></img></div></li>
                         <li><div className={Style.icon}><img className={Style.image} src={Javascript} alt="Javascript"></img></div></li>
                         <li><div className={Style.icon}><img className={Style.image} src={Reactjs} alt="Reactjs"></img></div></li> 
                         <li><div className={Style.icon}><img className={Style.image} src={Github} alt="Github"></img></div></li>

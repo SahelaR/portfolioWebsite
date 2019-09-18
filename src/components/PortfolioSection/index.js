@@ -1,9 +1,9 @@
 import React from 'react'
 import CSS from "../PortfolioSection/PortfolioSection.module.css"
 
-import BrumGo from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/brumGoLogo.svg"
-import TalentGrowth from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/talentGrowth.svg"
-import SAIZ from "/Users/sahel/Documents/portfolioWebsite/src/Assets/Images/SAIZ.svg"
+import BrumGo from "../Images/brumGoLogo.svg"
+import TalentGrowth from "../Images/talentGrowth.svg"
+import SAIZ from "../Images/SAIZ.svg"
 
 export default class PortfolioSection extends React.Component {
     render() {

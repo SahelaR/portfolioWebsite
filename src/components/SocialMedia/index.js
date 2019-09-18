@@ -1,7 +1,7 @@
 import React from "react";
 import CSS from "../SocialMedia/SocialMedia.module.css";
-import Linkedin from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/linkedin.svg"
-import Twitter from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/twitter.svg"
+import Linkedin from "../Images/linkedin.svg"
+import Twitter from "../Images/twitter.svg"
 
 export default class SocialMedia extends React.Component {
     render() {

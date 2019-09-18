@@ -1,5 +1,5 @@
 import React from 'react'
-import Portrait from "/Users/sahel//Documents/portfolioWebsite/src/Assets/Images/portrait.png"
+import Portrait from "../Images/portrait.png"
 import CSS from "../Ball/Ball.module.css"
 
 
